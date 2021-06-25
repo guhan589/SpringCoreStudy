@@ -7,6 +7,10 @@ import hello.core.order.OrderSerivce;
 import hello.core.order.OrderServiceImpl;
 
 public class AppConfig {
+    /**
+     * 제어의 역전: IOC
+     * 프로그램의 제어 흐름을 직접 젲어하는 것이 아니라 외부에서 관리하는 것을 IOC라고 한다.
+     * */
     
     /**
      * MemberRepository 와 DiscountPolicy 를 return 하는 메서드를 만들경우 가독성이 향상과 

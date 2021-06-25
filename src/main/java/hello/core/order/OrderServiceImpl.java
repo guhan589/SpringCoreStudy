@@ -12,6 +12,12 @@ public class OrderServiceImpl implements OrderSerivce{
 //    private final DiscountPolicy discountPolicy = new FixDiscountPolicy(); //DIP 위반 ★★★★★
 //    private final DiscountPolicy discountPolicy = new RateDiscountPolicy();
 
+
+    /**
+     * DI(Dependency Injection)규칙과 OCP 규칙 지킴
+     * OCP(개방 폐쇄 원칙) - 확장에 대해서는 열려있고 수정에 대해서는 닫혀있다.
+     *
+    * */
     private final MemberRepository memberRepository;
     private final DiscountPolicy discountPolicy;
 
