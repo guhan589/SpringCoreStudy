@@ -11,6 +11,10 @@ public class MemberServiceTest {
 
     private MemberService memberService;
 
+    /**
+     *  각 테스트 코드 메서드를 실행시 실행 전 beforeEach메서드를 실행하여
+     *  MemberSerivce와 DiscountPolicy 구현체를 새로 생성하여 할당한다.
+     * */
     @BeforeEach
     public void beforeEach() {
         AppConfig appConfig = new AppConfig();

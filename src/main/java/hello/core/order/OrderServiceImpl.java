@@ -18,6 +18,13 @@ public class OrderServiceImpl implements OrderSerivce{
      * OCP(개방 폐쇄 원칙) - 확장에 대해서는 열려있고 수정에 대해서는 닫혀있다.
      *
     * */
+
+    /**
+     * 의존관계는 정적인 클래스 의존 관게와
+     * 실행 시점에 결정되는 동적인 객체인스턴스) 의존관계 둘을 분리해서 생각해야 함.
+     *
+     * import를 보고 의존관계 분석이 가능하다.
+     * */
     private final MemberRepository memberRepository;
     private final DiscountPolicy discountPolicy;
 

@@ -8,6 +8,7 @@ public class MemberServiceImpl implements MemberService {
 
     public MemberServiceImpl(MemberRepository memberRepository) {
         this.memberRepository = memberRepository;
+
     }
 
     @Override
