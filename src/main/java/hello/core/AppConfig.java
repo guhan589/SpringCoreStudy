@@ -12,7 +12,7 @@ import org.springframework.context.annotation.Configuration;
 @Configuration  //애플리케이션의 구성정보를 담당하는 configuration 에노테이션
                 // Configuration을 적지 않으면 AppConfig 클래스는 싱글톤(Singletone)으로 생성 되지 않는다.\
 // 즉 MemberRepository 는 총 3번 (cintainer에 등록과 각 memberService/ orderService 메서드 호출 시 생성)
-public class AppConfig {
+public class AppConfig{
     /**
      * 제어의 역전: IOC(Inversion of Control)
      * 프로그램의 제어 흐름을 직접 제어하는 것이 아니라 외부에서 관리하는 것을 제어의 역전 이라고 한다.
